@@ -24,7 +24,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: anaslinux/flask-app:latest
+          tags: zaheer313/flask-app:latest
 
   deploy:
     needs: build-and-push
