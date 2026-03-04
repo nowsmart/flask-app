@@ -47,6 +47,6 @@ jobs:
             cd flask-app
             git pull origin main
 
-            docker pull anaslinux/flask-app:latest
+            docker pull zaheer313/flask-app:latest
             docker-compose down
             docker-compose up -d
